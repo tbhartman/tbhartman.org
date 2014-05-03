@@ -1,6 +1,6 @@
 html {
     background-color: #F9F9F9;
-    margin: 20px 10%;
+    margin: 20px 15%;
     text-align: center;
 }
 body {
@@ -39,4 +39,32 @@ body {
     text-align: center;
     font-style: italic;
     font-size: 16pt;
+}
+img#img{
+    
+    float: right;
+    position: relative;
+    right: 9em;
+    top: -7em;
+    border: 2px solid #000000;
+    padding: 2px;
+    width: 300px;
+    height: auto;
+    z-index: 2;
+}
+img#img:hover{
+    opacity: 0.4;
+}
+#images{
+    
+}
+#hidden{
+    float: right;
+    z-index: 3;
+    visibility: hidden;
+    width: 300px;
+    position: relative;
+    left: 114px;
+    bottom: 100px;
+    color: #000;
 }
