@@ -6,19 +6,19 @@
 */
 
 html {
-overflow-y: scroll; /* force scrollbar */
-background-color: #f3f3f3;
+    overflow-y: scroll; /* force scrollbar */
+    background-color: #f3f3f3;
 }
 
 body {
-margin: 0 auto;
-font-family: Garamond;
-text-rendering: optimizeLegibility;
-color: #333;
+    margin: 0 20%;
+    font-family: Garamond;
+    text-rendering: optimizeLegibility;
+    color: #333;
 }
 
 h1 {
-font-size: 2em;
+    font-size: 2em;
 }
 
 /* Homepage */
