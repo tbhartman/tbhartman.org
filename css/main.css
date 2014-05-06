@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/*
+  Style sheet for tbhartman.org.
+  Copyright (C) 2014 Timothy B. Hartman <tbhartman@gmail.com>
+*/
+
+html {
+    overflow-y: scroll; /* force scrollbar */
+    background-color: #f3f3f3;
+}
+
+body {
+    margin: 0 20%;
+    font-family: Garamond;
+    text-rendering: optimizeLegibility;
+    color: #333;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+/* Homepage */
+#contact p{
+    display: block;
+    color: #777;
+    margin: 10px;
+}
+#contact img {
+    width: 250px;
+    height: 333px;
+    padding: 3px;
+    border: 1px solid #ddd;
+    margin: 10 10% 10 100px;
+}
