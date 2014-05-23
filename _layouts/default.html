@@ -13,6 +13,9 @@
     {% endfor %}
     <link rel='shortcut icon' type='image/png' href='/favicon.ico'/>
     <title>{{ page.title }}</title>
+    {% for style in page.style %}
+    <script src='{{ style }}'></script>
+    {% endfor %}
     <script src='/script/analytics.js'></script>
 </head>
 
