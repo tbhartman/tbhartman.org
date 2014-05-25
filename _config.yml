@@ -1,1 +1,1 @@
-exclude: ['.git','*Makefile','cv/*.xsl','cv/cv.tex']
+exclude: ['.git','*Makefile']
