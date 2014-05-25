@@ -20,9 +20,28 @@
 </head>
 
 <body>
-
+  <div id="header">
+    <div id="navigation">
+  {% assign split_path = page.url | split: '/' %}
+  {% assign split_path_last = split_path | last %}
+  {% assign link_path = '/' %}
+  {% for dir in split_path %}
+    {% if dir != split_path_last %}
+    {% if dir == '' %}
+      <a class="header_link" href="{{link_path}}">tbhartman.org</a>
+    {% else %}
+      {% assign link_path = link_path | append: dir | append: '/' %}
+      <span class="link_seperator">&gt;</span> <a class="header_link" href="{{link_path}}">{{dir}}</a>
+    {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
+</div>
+  <div id="content">
     {{ content }}
+  </div>
 
 </body>
 
 </html>
+
