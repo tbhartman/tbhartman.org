@@ -1,1 +1,12 @@
-exclude: ['.git','*Makefile']
+exclude: ['.git',
+          '*Makefile',
+          'cv/cv-blx.bib',
+          'cv/cv.aux',
+          'cv/cv.fdb_latexmk',
+          'cv/cv.fls',
+          'cv/cv.log',
+          'cv/cv.out',
+          'cv/cv.run.xml',
+          'cv/cv.texml']
+
+markdown: kramdown
